@@ -1,0 +1,27 @@
+# === 안전장치: TA 정답지는 절대 push 금지 ===
+TA_solution*.ipynb
+**/TA_solution*.ipynb
+*solution*.ipynb
+**/*solution*.ipynb
+*answer*.ipynb
+**/*answer*.ipynb
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+.windsurf/
+
+# 학생 제출물 (혹시 같은 폴더에 받게 될 경우)
+20*_*.ipynb
